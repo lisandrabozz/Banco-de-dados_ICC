@@ -1,0 +1,39 @@
+body{
+    background: rgb(25, 213, 219);
+    margin: 15px 40px;
+}
+
+.pagina{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 2px 3px 1px #888888;
+}
+
+.nome{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 50px;
+    color:black;
+}
+
+.bloco{
+    margin: 15px 50px;
+    border: solid 1px;
+    padding:5px 20px;
+    border-radius: 5px;
+}
+
+.bloco:hover{
+    box-shadow: 0px 2px 3px 1px #888888;
+}
+
+.link{
+    color:black;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
