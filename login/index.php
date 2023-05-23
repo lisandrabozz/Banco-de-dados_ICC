@@ -61,7 +61,11 @@ if(isset($_POST['email']) || isset($_POST['senha'])){
                         <div class="caixa_um">
                         <input type="password" placeholder="Senha" name="senha" class="senha">
                         </div>
+                        <button name="button">Advogado</button>
+                        <button name="button">Cliente</button>
+                        <br>
                         <button type="submit">Entrar</button>
+                        <br />
                     </form>
             </div>
         </div>
