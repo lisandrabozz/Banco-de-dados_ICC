@@ -12,11 +12,11 @@
                 <h1>Login</h1>
                     <form action="" method="POST">
                     
-                    <a  href='cliente.php'> CLIENTE </button></a>
-                    <a  href='advogado.php'> ADVOGADO </button></a>
+                    </button> <a  href='cliente.php'> CLIENTE </button></a>
+                    </button> <a  href='advogado.php'> ADVOGADO </button></a>
 
                     </form>
             </div>
         </div>
     </body>
-</hmtl>
+</hmtl> 
