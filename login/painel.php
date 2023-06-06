@@ -27,7 +27,7 @@ include('protect.php');
 
         mysqli_select_db($con, $db);
 
-        $query = sprintf("SELECT processo_um, nome, vara, procedimento, id FROM processo");
+        $query = sprintf("SELECT processo_um, nome, vara, procedimento FROM processo");
         $dados = mysqli_query($con, $query) or die(mysql_error());
         $linha = mysqli_fetch_assoc($dados);
         $total = mysqli_num_rows($dados);
